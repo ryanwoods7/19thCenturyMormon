@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 <meta content="en-us" http-equiv="Content-Language" />
@@ -7,21 +7,6 @@
 </head>
 
 <body>
-
-$(document).ready(function () {
-    $('#pensyarah-tab .tab-links a').on('click', function (e) {
-        var currentAttrValue = $(this).attr('href');
-
-        // Show/Hide Tabs
-        $('#pensyarah-tab ' + currentAttrValue).show().siblings().hide();
-
-        // Change/remove current tab to active
-        $(this).parent('li').addClass('active').siblings().removeClass('active');
-
-        e.preventDefault();
-    });
-    $('#pensyarah-tab .tab-links .active a').click();
-});
 
 <p>I am powerful!</p>
 <p>&nbsp;</p>
