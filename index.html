@@ -1,14 +1,62 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	 <link rel="stylesheet" href="http://openlayers.org/en/v3.1.1/css/ol.css" type="text/css">
-<style>
-.map {
-height: 650px;
-width: 800px;
-}
-</style>
-<script src="http://openlayers.org/en/v3.1.1/build/ol.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="http://openlayers.org/en/v3.1.1/css/ol.css" type="text/css">
+	<link rel="stylesheet" href="resources/bootstrap.min.css" type="text/css"> 
+	<link rel="stylesheet" href="resources/ol.css" type="text/css">
+	<style type="text/css">
+		.ol-popup {
+		position: absolute;
+		background-color: white;
+		-webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+		filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+		padding: 15px;
+		border-radius: 10px;
+		border: 1px solid #cccccc;
+		bottom: 12px;
+		left: -50px;
+		width: 300px;
+		}
+		.ol-popup:after, .ol-popup:before {
+		top: 100%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		}
+		.ol-popup:after {
+		border-top-color: white;
+		border-width: 10px;
+		left: 48px;
+		margin-left: -10px;
+		}
+		.ol-popup:before {
+		border-top-color: #cccccc;
+		border-width: 11px;
+		left: 48px;
+		margin-left: -11px;
+		}
+		.ol-popup-closer {
+		text-decoration: none;
+		position: absolute;
+		top: 2px;
+		right: 8px;
+		}
+		.ol-popup-closer:after {
+		content: "✖";
+		}
+		.map {
+		height: 50%;
+		width: 70%;
+		}
+		#buttons {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	</style>
 	<title>19th Century Mormonism</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
@@ -32,21 +80,25 @@ width: 800px;
 						<a href="contact.html" class="selected">Contact</a> <span></span>
 					</li>
 			  </ul>
- <div id="map" class="map"></div>
-<script type="text/javascript">
-var map = new ol.Map({
-target: 'map',
-layers: [
-new ol.layer.Tile({
-source: new ol.source.MapQuest({layer: 'sat'})
-})
-],
-view: new ol.View({
-center: ol.proj.transform([-118.914, 43.306], 'EPSG:4326', 'EPSG:3857'),
-zoom: 10
-})
-});
-</script>
+<div id="map" class="map">
+		<div id="popup" class="ol-popup">
+			<a href="#" id="popup-closer" class="ol-popup-closer"></a>
+			<div id="popup-content"></div>
+		</div>
+	</div>
+	
+	<div id="buttons">
+	<button type="button" id="zoomNauvoo" onclick="zoomNauvoo()">Nauvoo</button>
+	<button type="button" id="zoomSLC" onclick="zoomSLC()">Salt Lake City</button>
+	<button type="button" id="zoomColonia" onclick="zoomColonia()">Colonia Juárez</button>
+	<button type="button" id="zoomKirtland" onclick="zoomKirtland()">Kirtland</button>
+	<button type="button" id="zoomMelchizedek" onclick="zoomMelchizedek()">Melchizedek Priesthood</button>
+	<button type="button" id="zoomTrail" onclick="zoomTrail()">Mormon Trail</button>
+	<button type="button" id="zoomReset" onclick="zoomReset()">Reset Zoom</button>
+	
+    <script src="resources/ol.js" type="text/javascript"></script>
+    <script src="resources/functions.js" type="text/javascript"></script>
+	</div>
 			</div>
 		</div>
 
