@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Aaronic Priesthood Restoration">
+  <name>Aaronic Priesthood Restoration</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Aaronic Priesthood Restoration</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Aaronic Priesthood Restoration</name>
+      <Snippet></Snippet>
+      <description>The Aaronic Priesthood was restored to the Earth by John the Baptist. He conferred it upon Joseph Smith and Oliver Cowdery by the laying on of hands. This priesthood deals with temporal ordinances of the gospel.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Banks of the Susquehanna River</value>
+		</Data>
+		<Data name="date">
+			<value>May 15, 1829</value>
+		</Data>
+		<Data name="link">
+			<value>https://www.lds.org/scriptures/gs/aaronic-priesthood?lang=eng</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>The Guide to the Scriptures</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -75.6387,41.95119999999999,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>KMLandPNG/moroni.png</href></Icon>
+      <scale>.1</scale>
+    </IconStyle>
+  </Style>
+</Document>
+</kml>
