@@ -34,7 +34,7 @@
   </Folder>
   <Style id="IconStyle00">
     <IconStyle>
-      <Icon><href>KMLandPNG/moroni.png</href></Icon>
+      <Icon><href>http://www.et.byu.edu/~mgeorge7/sample/KMLandPNG/moroni.png</href></Icon>
       <scale>.1</scale>
     </IconStyle>
   </Style>
