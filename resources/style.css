@@ -430,6 +430,11 @@ a img {
 	color:#688889;
 	text-decoration:underline;
 }
+.header .about form {
+	background:none #249596;
+	overflow:hidden;
+	padding:13px 60px 0 69px;
+}
 .body .documentation {
 	float:left;
 	margin:-467px 0 17px;
@@ -538,6 +543,11 @@ a img {
 }
 .body .documentation ul li div a:hover {
 	color:#fff;
+}
+.header .documentation form {
+	background:none #249596;
+	overflow:hidden;
+	padding:13px 60px 0 69px;
 }
 .body .contact {
 	float:left;
