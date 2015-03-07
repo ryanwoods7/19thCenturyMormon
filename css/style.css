@@ -494,7 +494,7 @@ a img {
 	background:none;
 }
 .body .documentation ul li {
-	background:url(../images/border.png) repeat-x left top;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/border.jpg) repeat-x left top;
 	overflow:hidden;
 	padding:25px 0 0;
 }
@@ -697,7 +697,7 @@ a img {
 	margin:0;
 }
 .body .gallery ul.section {
-	background:url(../images/border.png) repeat-x left top;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/border.jpg) repeat-x left top;
 	border:0;
 	clear:none;
 	margin:0 10px;
