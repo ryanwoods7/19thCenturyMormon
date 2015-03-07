@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Nauvoo, IL">
+  <name>Settlement of Nauvoo</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Settlement of Nauvoo</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Settlement of Nauvoo</name>
+      <description>The Saints came to Nauvoo after being threatened with extermination in Missouri. They also built a temple here. While in Nauvoo, the Prophet Joseph was taken to Carthage Jail and eventually murdered.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Nauvoo, IL</value>
+		</Data>
+		<Data name="date">
+			<value>1839</value>
+		</Data>
+		<Data name="link">
+			<value>http://www.historicnauvoo.net/</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>Historic Nauvoo</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -91.38504999983971,40.56030800020242,0 -91.38504999983971,40.56930599979157,0 -91.38719599959498,40.56924099983411,0 -91.38856899994657,40.5683280001647,0 -91.39062900038645,40.5669589996847,0 -91.3975810003865,40.56233000018376,0 -91.40144399955166,40.5594600001189,0 -91.40350300016662,40.55691700012322,0 -91.40513400026107,40.55463500022493,0 -91.40633600001014,40.55189600023265,0 -91.40676500035555,40.54941799977549,0 -91.40676500035555,40.54719999984034,0 -91.40633600001014,40.54276500017323,0 -91.40487700034313,40.5402869997764,0 -91.40350300016662,40.53846000020534,0 -91.40024199980259,40.53663400013546,0 -91.39697999961366,40.53539400021748,0 -91.39517799981495,40.53467699987314,0 -91.392688999928,40.53409000013887,0 -91.39037099974529,40.53356799987844,0 -91.38779599964461,40.53304600033057,0 -91.38573600010305,40.53167599981213,0 -91.38384800009064,40.53024099968995,0 -91.38247499973902,40.52887099986059,0 -91.37801199962593,40.52332499992138,0 -91.37560800012778,40.52339099975766,0 -91.37311900024082,40.52352099986592,0 -91.37114500001469,40.52371699992018,0 -91.36925700000228,40.52404299986279,0 -91.36796999986439,40.52476100030709,0 -91.36736899998985,40.52534799982321,0 -91.36719699956241,40.52652199982032,0 -91.36616700024079,40.5264569999767,0 -91.36625299955621,40.52815299974616,0 -91.36530900044831,40.52834899991118,0 -91.36522300023458,40.52965400001317,0 -91.36419300001465,40.52965400001317,0 -91.36462200036004,40.5375469999058,0 -91.36118899956855,40.53748199983249,0 -91.36050200037863,40.55241800033535,0 -91.36599499981334,40.55241800033535,0 -91.36591000032284,40.55985200028218,0 -91.38504999983971,40.56030800020242,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Style id="PolyStyle00">
+    <LineStyle>
+      <color>FF000000</color>
+      <width>2</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>73CCCCCC</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>
