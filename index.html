@@ -94,7 +94,28 @@
 	<button type="button" id="zoomKirtland" onclick="zoomKirtland()">Kirtland</button>
 	<button type="button" id="zoomMelchizedek" onclick="zoomMelchizedek()">Melchizedek Priesthood</button>
 	<button type="button" id="zoomTrail" onclick="zoomTrail()">Mormon Trail</button>
-	<button type="button" id="zoomReset" onclick="zoomReset()">Reset Zoom</button>
+	<button type="button" id="zoomReset" onclick="zoomReset()">Reset Zoom</button><br>
+	<form>
+		<select onchange="destroyBubble();">
+			<option value='0' onclick="zoomReset()">Default View</option>
+			<option value='1' onclick="zoomVision()">The First Vision</option>
+			<option value='2' onclick="zoomBook()">Publication of the Book of Mormon</option>
+			<option value='3' onclick="zoomAaronic()">Aaronic Priesthood Restoration</option> 
+			<option value='4' onclick="zoomMelchizedek()">Melchizedek Priesthood Restoration</option> 
+			<option value='5' onclick="zoomWhitmer()">Organization of the Church</option>
+			<option value='6' onclick="zoomKirtland()">Settling of Kirtland</option>
+			<option value='7' onclick="zoomFarWest()">Settling Far West</option>
+			<option value='8' onclick="zoomAdam()">Adam-ondi-Ahman Prophecy</option>
+			<option value='9' onclick="zoomLiberty()">Liberty Jail Imprisonment</option>
+			<option value='10' onclick="zoomNauvoo()">Settling of Nauvoo</option>
+			<option value='11' onclick="zoomCarthage()">Martyrdom of Joseph Smith</option>
+			<option value='12' onclick="zoomQuarters()">Settling of Winter Quarters</option>
+			<option value='13' onclick="zoomTrail()">The Mormon Trail</option>
+			<option value='14' onclick="zoomSLC()">Settling of Salt Lake City</option>
+			<option value='15' onclick="zoomGeorge()">Saint George Temple Dedication</option>
+			<option value='16' onclick="zoomColonia()">Settling of Colonia Juárez</option>			
+		</select>
+    </form>
 	
     <script src="resources/ol.js" type="text/javascript"></script>
     <script src="resources/functions.js" type="text/javascript"></script>
