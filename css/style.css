@@ -347,7 +347,7 @@ a img {
 	overflow:hidden;
 }
 .body .sidebar form input:first-child {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) no-repeat 0 -49px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) repeat-x #060606;
 	border:0;
 	cursor:auto;
 	float:left;
@@ -362,10 +362,10 @@ a img {
 	cursor:text;
 }
 .body .sidebar form input:first-child:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) no-repeat 0 -49px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) repeat-x #060606;
 }
 .body .sidebar form input {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) no-repeat;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) repeat-x #060606;
 	border:0;
 	cursor:pointer;
 	height:100px;
@@ -374,7 +374,7 @@ a img {
 	width:185px;
 }
 .body .sidebar form input:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) no-repeat 0 -184px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) repeat-x #060606;
 }
 .body .section {
 	border-top:6px solid #102223;
@@ -624,7 +624,7 @@ a img {
 	width:225px;
 }
 .body .contact form input#submit {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) no-repeat -73px 0;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) repeat-x #060606;
 	border:0;
 	cursor:pointer;
 	float:right;
@@ -634,7 +634,7 @@ a img {
 	width:185px;
 }
 .body .contact form input#submit:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) no-repeat -73px -184px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) repeat-x #060606;
 }
 .body .contact p {
 	color:#688889;
