@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Carthage Jail">
+  <name>Martyrdom of Joseph Smith</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Martyrdom of Joseph Smith</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Martyrdom of Joseph Smith</name>
+      <description>The prophet Joseph Smith was shot to death in Carthage Jail by an armed mob of men with painted faces. He was in the jail on false accusations.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Carthage Jail, IL</value>
+		</Data>
+		<Data name="date">
+			<value>June 27, 1844</value>
+		</Data>
+		<Data name="link">
+			<value>http://eom.byu.edu/index.php/Martyrdom_of_Joseph_and_Hyrum_Smith</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>Encyclopedia of Mormonism</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -91.13930049986398,40.41519919974143,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>http://img.photobucket.com/albums/v621/simpsons403/jail.png</href></Icon>
+      <scale>0.15</scale>
+    </IconStyle>
+   </Style>
+</Document>
+</kml>
