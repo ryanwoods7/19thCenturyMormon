@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Grandin Building">
+  <name>Publication of The Book of Mormon</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Publication of The Book of Mormon</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Publication of The Book of Mormon</name>
+      <description>The Book of Mormon was published by E.B. Grandin. The initial order of 5,000 copies was miraculously completed in 200 days. An original press was used, with a printing capacity of 16 pages per lift.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Grandin Building, Palmyra, NY</value>
+		</Data>
+		<Data name="date">
+			<value>1829-1830</value>
+		</Data>
+		<Data name="link">
+			<value>http://historyofmormonism.com/2013/02/11/grandin-building-and-the-original-printing-of-the-book-of-mormon/</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>History of Mormonism</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -77.23092819985742,43.06388899975712,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>http://img.photobucket.com/albums/v621/simpsons403/plates.png</href></Icon>
+      <scale>.14</scale>
+    </IconStyle>
+  </Style>
+</Document>
+</kml>
