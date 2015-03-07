@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="The Sacred Grove">
+  <name>Settlement of Winter Quarters</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Settlement of Winter Quarters</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Settlement of Winter Quarters</name>
+      <description>Winter Quarters was a temporary encampment along the Mormon Trail. Many early saints are buried in this area, most without headstones or grave markers.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Winter Quarters, NE</value>
+		</Data>
+		<Data name="date">
+			<value>1846 - 1853</value>
+		</Data>
+		<Data name="link">
+			<value>http://winterquarters.byu.edu/</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>Winter Quarters Project</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -95.96496900000001,41.33501199999999,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>http://img.photobucket.com/albums/v621/simpsons403/wagon.png</href></Icon>
+      <scale>0.04</scale>
+    </IconStyle>
+  </Style>
+</Document>
+</kml>
