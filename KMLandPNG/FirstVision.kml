@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="The Sacred Grove">
+  <name>The First Vision</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>The First Vision</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>The First Vision</name>
+      <description>Heavenly Father and Jesus Christ appeared to the boy Joseph Smith after he prayed about which church to join. He was told to not join any of them, and that the fullness of the gospel would be restored. Joseph Smith become the Prophet of the Restoration.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>The Sacred Grove, Palmyra, NY</value>
+		</Data>
+		<Data name="date">
+			<value>Spring of 1820</value>
+		</Data>
+		<Data name="link">
+			<value>http://www.mormon.org/faq/the-first-vision</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>mormon.org</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -77.24429370026887,43.0405319996778,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>http://img.photobucket.com/albums/v621/simpsons403/moroni.png</href></Icon>
+      <scale>0.1</scale>
+    </IconStyle>
+  </Style>
+</Document>
+</kml>
