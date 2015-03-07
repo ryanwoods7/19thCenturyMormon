@@ -62,16 +62,16 @@ a img {
 	display:block;
 }
 .page-home {
-	background:url(../images/sg.jpg) no-repeat center 50px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sg.jpg) no-repeat center 50px;
 }
 .page-about {
-	background:url(../images/sg.jpg) no-repeat center 50px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sg.jpg) no-repeat center 50px;
 }
 .page-documentation {
-	background:url(../images/sg.jpg) no-repeat center 50px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sg.jpg) no-repeat center 50px;
 }
 .page-contact, .page-gallery {
-	background:url(../images/sg.jpg) no-repeat center 50px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sg.jpg) no-repeat center 50px;
 }
 /*------------------------- Header -------------------------*/
 .header {
