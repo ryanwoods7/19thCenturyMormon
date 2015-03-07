@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Carthage Jail">
+  <name>Dedication of Saint George Temple</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Dedication of Saint George Temple</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Dedication of Saint George Temple</name>
+      <description>The Saint George Temple was the first temple dedicated in the West. It is the oldest operating temple and was dedicated by Wilford Woodruff.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Saint George, UT</value>
+		</Data>
+		<Data name="date">
+			<value>April 1877</value>
+		</Data>
+		<Data name="link">
+			<value>http://www.ldschurchtemples.com/stgeorge/</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>LDS Church Temples</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -113.578052632127,37.10054049358175,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>http://img.photobucket.com/albums/v621/simpsons403/church.png</href></Icon>
+      <scale>0.03</scale>
+    </IconStyle>
+   </Style>
+</Document>
+</kml>
