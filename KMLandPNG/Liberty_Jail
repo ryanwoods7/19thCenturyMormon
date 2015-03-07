@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="LibertyJail">
+  <name>Liberty Jail Imprisonment</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Liberty Jail Imprisonment</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Liberty Jail Imprisonment</name>
+      <Snippet></Snippet>
+      <description>Joseph Smith, Hyrum Smith, Sidney Rigdon, and three others were wrongly incarcerated in Liberty Jail for four months. While in the jail Joseph Smith received several prominent revlations, including Doctrine and Covenants Section 121, 122, and 123. Their captors eventually let them free.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Liberty Jail, MO</value>
+		</Data>
+		<Data name="date">
+			<value>December 1, 1838 - April 6, 1839</value>
+		</Data>
+		<Data name="link">
+			<value>http://eom.byu.edu/index.php/Liberty_Jail</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>Encyclopedia of Mormonism</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -94.42062300000001,39.24850300000001,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>http://img.photobucket.com/albums/v621/simpsons403/jail.png</href></Icon>
+      <scale>0.15</scale>
+    </IconStyle>
+  </Style>
+</Document>
+</kml>
