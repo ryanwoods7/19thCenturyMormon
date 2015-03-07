@@ -138,7 +138,7 @@ var George = new ol.layer.Vector({
  * Map Creation
  */
 var map = new ol.Map({
-  layers: [mapLayer, Aaronic, Adam/*, Carthage, Colonia, FarWest, Vision, Liberty, Whitmer, Nauvoo, Book, Kirtland, Melchizedek, SLC, Trail, Quarters, George*/],
+  layers: [mapLayer, Aaronic, Adam, Carthage, Colonia, FarWest, Vision, Liberty, Whitmer, Nauvoo, Book, Kirtland, Melchizedek, SLC, Trail, Quarters, George],
   overlays: [overlay],
   target: 'map',
   view: new ol.View({
