@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Melchizedek_Priesthood">
+  <name>Melchizedek Priesthood Restoration</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Melchizedek Priesthood Restoration</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Melchizedek Priesthood Restoration</name>
+      <Snippet></Snippet>
+      <description>The Melchizedek Priesthood was restored to the Earth by Peter, James, and John (three of Jesus's original apostles). They conferred it by the laying on of hands to Joseph Smith and Oliver Cowdery. This priesthood is essential for many saving ordinances.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Near the Susquehanna River between Harmony and Colesville</value>
+		</Data>
+		<Data name="date">
+			<value>1829</value>
+		</Data>
+		<Data name="link">
+			<value>http://eom.byu.edu/index.php/Melchizedek_Priesthood</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>Encyclopedia of Mormonism</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -75.5991189923662,41.95188045146596,0 -75.58389196478399,41.95293579001117,0 -75.61057695371535,42.01354237504157,0 -75.60213424535296,42.04475024345291,0 -75.62595474394699,42.06661082760576,0 -75.62550245599904,42.08078251664253,0 -75.63650812940001,42.11425182479368,0 -75.60891856457276,42.11214114770319,0 -75.59610373937977,42.11817165367634,0 -75.57997213590147,42.14922875943823,0 -75.61072771636471,42.17923052665486,0 -75.62203491506443,42.17470764717477,0 -75.59761136587295,42.14334901611424,0 -75.6172105102858,42.13264486801193,0 -75.65942405209805,42.13068495357073,0 -75.64374473656777,42.06947531794295,0 -75.6190196620778,42.03902126277836,0 -75.62429635480434,42.01716067862564,0 -75.61389373200062,42.00208441369271,0 -75.5991189923662,41.95188045146596,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Style id="PolyStyle00">
+    <LineStyle>
+      <color>FF000000</color>
+      <width>2</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>73CCCCCC</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>
