@@ -25,7 +25,7 @@ closer.onclick = function() {
 var Aaronic = new ol.layer.Vector({
 	source: new ol.source.KML({
 		projection: projection,
-		url: 'KMLandPNG/Aaronic_Priesthood.kml'
+		url: 'http://www.et.byu.edu/~mgeorge7/sample/KMLandPNG/Aaronic_Priesthood.kml'
 	})	
 });
 
