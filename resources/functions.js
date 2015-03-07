@@ -153,35 +153,88 @@ var map = new ol.Map({
  function zoomNauvoo() {
  var extent = Nauvoo.getSource().getExtent();
  map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(12);
  }
- 
  function zoomSLC() {
  var extent = SLC.getSource().getExtent();
  map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(11);
  }
-
  function zoomColonia() {
  var extent = Colonia.getSource().getExtent();
  map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(11);
  }
-
  function zoomKirtland() {
  var extent = Kirtland.getSource().getExtent();
  map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(12);
  }
- 
  function zoomMelchizedek() {
  var extent = Melchizedek.getSource().getExtent();
  map.getView().fitExtent(extent, map.getSize());
  }
- 
-  function zoomTrail() {
+ function zoomTrail() {
  var extent = Trail.getSource().getExtent();
  map.getView().fitExtent(extent, map.getSize());
  }
- 
+ function zoomVision() {
+ var extent = Vision.getSource().getExtent();
+ map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(15);
+ }
+ function zoomBook() {
+ var extent = Book.getSource().getExtent();
+ map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(15);
+ }
+ function zoomAaronic() {
+ var extent = Aaronic.getSource().getExtent();
+ map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(15);
+ }
+ function zoomWhitmer() {
+ var extent = Whitmer.getSource().getExtent();
+ map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(15);
+ }
+ function zoomFarWest() {
+ var extent = FarWest.getSource().getExtent();
+ map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(15);
+ }
+ function zoomAdam() {
+ var extent = Adam.getSource().getExtent();
+ map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(15);
+ }
+ function zoomLiberty() {
+ var extent = Liberty.getSource().getExtent();
+ map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(15);
+ }
+ function zoomCarthage() {
+ var extent = Carthage.getSource().getExtent();
+ map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(15);
+ }
+ function zoomQuarters() {
+ var extent = Quarters.getSource().getExtent();
+ map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(15);
+ }
+ function zoomGeorge() {
+ var extent = George.getSource().getExtent();
+ map.getView().fitExtent(extent, map.getSize());
+ map.getView().setZoom(15);
+ }
  function zoomReset() {
  location.reload(false)
+ }
+ function destroyBubble() {
+ overlay.setPosition(undefined);
+ closer.blur();
+ return false;
  }
 
 /*
