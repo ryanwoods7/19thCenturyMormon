@@ -32,10 +32,11 @@
       </Point>
     </Placemark>
   </Folder>
-  <Style id="IconStyle00">
+  <Style id="sn_red-circle">
     <IconStyle>
-      <Icon><href>http://www.understandingmormonism.org/files/2008/06/moroni-mormon.jpg</href></Icon>
-      <scale>.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+      <scale>1.1</scale>
+      <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
     </IconStyle>
   </Style>
 </Document>
