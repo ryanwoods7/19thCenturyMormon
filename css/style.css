@@ -52,7 +52,7 @@
 body {
 	margin:0;
 	font-family: 'exoregular';
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sg.jpg) repeat-x #060606;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/border.jpg) repeat-x #060606;
 }
 a {
 	outline:none;
@@ -169,7 +169,7 @@ a img {
 	width:654px;
 }
 .header div div.featured p {
-	background:url(../images/bg-transparent-title.png);
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/bg-transparent-title.png);
 	color:#fefafa;
 	font-family:exoextralightitalic;
 	font-size:36px;
@@ -763,7 +763,7 @@ a img {
 	opacity:0.8;
 }
 .body .section div.connect a#twitter, .body .sidebar div.connect a#twitter {
-	background:url(../images/icons.png) no-repeat 0 -59px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -59px;
 	float:left;
 	height:28px;
 	margin:25px 0 31px 21px;
@@ -771,10 +771,10 @@ a img {
 	width:31px;
 }
 .body .section div.connect a#twitter:hover, .body .sidebar div.connect a#twitter:hover {
-	background:url(../images/icons.png) no-repeat 0 -89px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -89px;
 }
 .body .section div.connect a#fb, .body .sidebar div.connect a#fb {
-	background:url(../images/icons.png) no-repeat 0 -177px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -177px;
 	float:left;
 	height:27px;
 	margin:25px 0 0 48px;
@@ -785,7 +785,7 @@ a img {
 	background:url(../images/icons.png) no-repeat 0 -206px;
 }
 .body .section div.connect a#googleplus, .body .sidebar div.connect a#googleplus {
-	background:url(../images/icons.png) no-repeat 0 -119px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -119px;
 	float:left;
 	height:27px;
 	width:26px;
@@ -793,10 +793,10 @@ a img {
 	text-indent:-99999px;
 }
 .body .section div.connect a#googleplus:hover, .body .sidebar div.connect a#googleplus:hover {
-	background:url(../images/icons.png) no-repeat 0 -148px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -148px;
 }
 .body .section div.connect a#vimeo, .body .sidebar div.connect a#vimeo {
-	background:url(../images/icons.png) no-repeat 0 0;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 0;
 	float:left;
 	height:28px;
 	margin:25px 0 0 52px;
@@ -804,7 +804,7 @@ a img {
 	width:31px;
 }
 .body .section div.connect a#vimeo:hover, .body .sidebar div.connect a#vimeo:hover {
-	background:url(../images/icons.png) no-repeat 0 -30px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -30px;
 }
 .body .documentation div ul li a:hover, .body .documentation div ul li a.first, .body .documentation div ul li a.last, .body .documentation ul li div h3 a:hover, .body .gallery div ul li a.first, .body .gallery div ul li a.last, .body .gallery div ul li a:hover {
 	text-decoration:underline;
@@ -834,7 +834,7 @@ a img {
 }
 /*------------------------- Footer -------------------------*/
 .footer {
-	background:url(../images/bg-footer.jpg) repeat-x;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/bg-footer.jpg) repeat-x;
 	clear:both;
 	height:52px;
 	margin:42px auto 72px;
@@ -852,7 +852,7 @@ a img {
 	padding-left:0;
 }
 .footer ul li {
-	background:url(../images/border-footer-nav.png) no-repeat left 6px;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/border-footer-nav.png) no-repeat left 6px;
 	float:left;
 	padding:0 10px;
 }
