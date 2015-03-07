@@ -8,7 +8,7 @@
 	<title>Contact - 19th Century Mormon</title>
 </head>
 <body>
-	<div class="page page-documentation">
+	<div class="page page-contact">
 		<div class="header">
 			<div>
 			  <ul>
@@ -29,13 +29,27 @@
 			  </ul>
 		  </div>
 		</div>
-	  <div class="header">
-	  <div class="documentation">
-				<form>
-					<h3>You know Dasher and DancerAnd Prancer and Vixen,Comet and CupidAnd Donner and Blitzen.But do you recallThe most famous reindeer of all?)Had a very shiny nose(like a light bulb)And if you ever saw it(saw it)You would even say it glows(like a flash light)All of the other reindeer(reindeer)Used to laugh and call him names(like Pinochio)They never let poor Rudolph(Rudolph)Play in any reindeer games(like Monopoly) Then one foggy Christmas Eve Santa came to say(Ho Ho Ho)Rudolph with your nose so brightWon't you guide my sleigh tonight?Then all the reindeer loved him(loved him)And they shouted out with glee(yippee)"Rudolph the red-nosed reindeer(reindeer)You'll go down in history!"(like Columbus)</h3>
+	  <div class="body">
+			<div class="contact">
+				<div>
+					<h4>Contact Us</h4>
+				</div>
+				<form action="about.html">
+					<p>Contact us if you have any questions.</p>
+					<input type="text" id="name" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Full Name':this.value;" value="Full Name">
+					<input type="text" id="email" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Email Address':this.value;" value="Email Address">
+					<input type="text" id="subject" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Subject':this.value;" value="Subject">
+					<textarea name="message" id="message" cols="30" rows="10" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Message':this.value;">Message</textarea>
+					<label for="subscribe" class="subscribe">
+						<input type="checkbox" id="subscribe">
+						Subscribe to newsletter</label>
+					<label for="agree" class="agree">
+						<input type="checkbox" id="agree">
+						I agree to the Terms and Conditions</label>
+					<input type="submit" value="" id="submit">
 				</form>
 			</div>
-	  </div>
+		</div>
 		<div class="footer">
 			<div>
 				<ul>
