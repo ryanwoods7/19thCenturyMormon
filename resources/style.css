@@ -63,7 +63,10 @@ a img {
 }
 /*------------------------- Header -------------------------*/
 .header {
-	min-height:436px;
+	min-height:200px;
+}
+}.header .contact{
+	min-height:636px;
 }
 .header div {
 	margin: 0 auto;
