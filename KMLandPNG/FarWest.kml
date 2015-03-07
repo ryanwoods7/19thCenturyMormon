@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="FarWest_Missouri">
+  <name>Settling of Far West</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Settling of Far West</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Settling of Far West</name>
+      <Snippet></Snippet>
+      <description>The Saints sought refuge from persecution in Far West. They were eventually driven from Far West by Governor Boggs's Extermination Order and fled to Nauvoo in 1838.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Far West, MO</value>
+		</Data>
+		<Data name="date">
+			<value>1836</value>
+		</Data>
+		<Data name="link">
+			<value>http://eom.byu.edu/index.php/Far_West,_Missouri</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>Encyclopedia of Mormonism</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -94.13094799999999,39.671756,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>http://img.photobucket.com/albums/v621/simpsons403/moroni.png</href></Icon>
+      <scale>0.1</scale>
+    </IconStyle>
+  </Style>
+</Document>
+</kml>
