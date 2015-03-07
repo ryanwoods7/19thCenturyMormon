@@ -408,27 +408,112 @@ a img {
 }
 .body .about {
 	float:left;
-	margin:0 20px 17px 0;
+	margin:-467px 0 17px;
 	width:630px;
 }
-.body .about h3 {
-	color:#fff;
+.body .about div {
+	background:none #1d3536;
+	height:42px;
+}
+.body .about div h4 {
+	color:#fefafa;
+	display:inline-block;
+	float:left;
+	font-family:exobolditalic;
+	font-size:18px;
+	letter-spacing:.05em;
+	line-height:40px;
+	margin:0;
+	text-indent:20px;
+}
+.body .about div ul {
+	background:none;
+	float:right;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:0 5px 0 0;
+}
+.body .about div ul li {
+	background:none;
+	float:left;
+	padding:0;
+}
+.body .about div ul li a {
+	color:#74c9d1;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:42px;
+	margin:0;
+	padding:0 6px;
+	text-decoration:none;
+}
+.body .about ul {
+	background:none #749596;
+	list-style:none;
+	margin:0;
+	padding:5px 19px 0 18px;
+}
+.body .about ul li:first-child {
+	background:none;
+}
+.body .about ul li {
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/border.png) repeat-x left top;
+	overflow:hidden;
+	padding:25px 0 0;
+}
+.body .about ul li a {
+	display:inline-block;
+	float:left;
+	margin:0 30px 0 0;
+	vertical-align:top;
+}
+.body .about ul li div {
+	background:none;
+	display:inline-block;
+	float:left;
+	height:auto;
+	padding:0 0 18px;
+	width:465px;
+}
+.body .about ul li div h3 {
+	margin:-3px 0 0;
+	color:#f9fefe;
+	display:block;
+	float:none;
 	font-family:exobolditalic;
 	font-size:16px;
 	font-weight:400;
-	line-height:24px;
-	margin:8px 0 0;
-	text-transform:uppercase;
+	letter-spacing:.05em;
 }
-.body .about p {
-	color:#688889;
+.body .about ul li div span {
+	color:#F9FEFE;
+	display:block;
+	font-size:10px;
+	letter-spacing:.05em;
+	margin:3px 0 0;
+}
+.body .about ul li div p {
+	color:#060404;
 	font-size:12px;
+	letter-spacing:.05em;
 	line-height:24px;
-	margin:1px 0 23px;
+	margin:5px 0 9px;
 }
-.body .about p a {
-	color:#688889;
-	text-decoration:underline;
+.body .about ul li div p a {
+	color:#060404;
+	display:inline;
+	float:none;
+	margin:0;
+}
+.body .about ul li div > a {
+	color:#6df2fc;
+	font-size:10px;
+	letter-spacing:.05em;
+	line-height:18px;
+}
+.body .about ul li div a:hover {
+	color:#fff;
 }
 .header .about form {
 	background:none #249596;
