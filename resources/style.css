@@ -65,7 +65,7 @@ a img {
 .header {
 	min-height:200px;
 }
-.header {
+.header .home {
 	min-height:636px;
 }
 .header .contact {
