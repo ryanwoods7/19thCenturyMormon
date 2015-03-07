@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Colonia Juárez, Chihuahua">
+  <name>Mormon Pioneers in Mexico</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Mormon Pioneers in Mexico</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Mormon Pioneers in Mexico</name>
+      <description>As part of the expansion of the Church, some members of the Church fled to Mexico seeking to avoid prosecution and imprisonment. There are many descendants of people who lived in these colonies, including Mitt Romney.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Colonia Juárez, Chihuahua, Mexico</value>
+		</Data>
+		<Data name="date">
+			<value>1886</value>
+		</Data>
+		<Data name="link">
+			<value>http://www.mormoncoloniesinmexico.com/</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>The Land of Refuge - Mormon Colonies in Mexico</value>
+		</Data>
+	  </ExtendedData>
+	  <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+		<Polygon>			
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -108.0813502995919,30.31724730020953,0 -108.0833673003741,30.31613589986152,0 -108.0828093998703,30.31520969988151,0 -108.084354399751,30.3142465003429,0 -108.0855988996945,30.31302389988098,0 -108.0855988996945,30.31213480014231,0 -108.0866288999144,30.31020820008907,0 -108.086543100025,30.3092819999223,0 -108.085384399971,30.30802230016863,0 -108.0843972996957,30.30709610028567,0 -108.0840969003698,30.30598460032427,0 -108.0843114998063,30.30553989971098,0 -108.0865002000803,30.3043172999942,0 -108.0871868004183,30.3037614997709,0 -108.0865859999697,30.30320570027437,0 -108.0866288999144,30.3027981000821,0 -108.0859422995764,30.30242759972866,0 -108.0848694003101,30.30250170037672,0 -108.084354399751,30.30298339975854,0 -108.083195699697,30.30294640003608,0 -108.082508999646,30.30220529977523,0 -108.081393200435,30.30257580019317,0 -108.0798054003225,30.30316869986029,0 -108.0790329003821,30.30235349980019,0 -108.0774449996584,30.30261290010537,0 -108.0754279997745,30.30387260034867,0 -108.0746125998894,30.30402080017999,0 -108.0716084997304,30.30276110028976,0 -108.0680036997341,30.30435429997478,0 -108.0695056999571,30.30676259973647,0 -108.0703639997869,30.3079111996406,0 -108.0737972000044,30.30965249996214,0 -108.0746554998341,30.31113450007505,0 -108.0761575997702,30.31261640022818,0 -108.0779600002175,30.3142465003429,0 -108.0796765998771,30.31576540029234,0 -108.0813502995919,30.31724730020953,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+	  </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Style id="PolyStyle00">
+    <LineStyle>
+      <color>FF000000</color>
+      <width>2</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>73CCCCCC</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  </Document>
+</kml>
