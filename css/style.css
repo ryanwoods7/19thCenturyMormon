@@ -612,7 +612,7 @@ a img {
 	width:225px;
 }
 .body .contact form input#submit {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub.jpg) repeat-x #060606;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub.jpg) no-repeat;
 	border:0;
 	cursor:pointer;
 	float:right;
@@ -622,7 +622,7 @@ a img {
 	width:185px;
 }
 .body .contact form input#submit:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub2.jpg) repeat-x #060606;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub2.jpg) no-repeat;
 }
 .body .contact p {
 	color:#688889;
