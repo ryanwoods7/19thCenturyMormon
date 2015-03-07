@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Adam-Ondi_Ahmann">
+  <name>Adam-ondi-Ahman Prophecy</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Adam-ondi-Ahman Prophecy</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Adam-ondi-Ahman Prophecy</name>
+      <Snippet></Snippet>
+      <description>Joseph Smith designated this as a gathering place for the saints and the area where Adam blessed his posterity. Joseph Smith also prophesied that Adam will return here piror to the Second Coming.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Near Jameson, MO</value>
+		</Data>
+		<Data name="date">
+			<value>May 1838</value>
+		</Data>
+		<Data name="link">
+			<value>"http://josephsmithpapers.org/place/adam-ondi-ahman-missouri"</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>Joseph Smith Papers</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -93.97679100000001,39.98384300000001,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>http://www.et.byu/~mgeorge7/sample/KMLandPNG/moroni.png</href></Icon>
+      <scale>.1</scale>
+    </IconStyle>
+    </Style>
+</Document>
+</kml>
