@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Peter_Whitmer_Home">
+  <name>Organization of the Church</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Organization of the Church</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Organization of the Church</name>
+      <Snippet></Snippet>
+      <description>The Church of Jesus Christ of Latter-day Saints was officially organized with six members on this day. The six members were: Joseph Smith, Oliver Cowdery, Hyrum Smith, Peter Whitmer, Samuel Smith, and David Whitmer.</description>
+	  <ExtendedData>
+		<Data name="location">
+			<value>Peter Whitmer Home, Fayette, NY</value>
+		</Data>
+		<Data name="date">
+			<value>April 6, 1830</value>
+		</Data>
+		<Data name="link">
+			<value>http://mormonhistoricsites.org/peter-whitmer-sr-farm-home/</value>
+		</Data>
+		<Data name="moreinfo">
+			<value>Mormon Historic Sites Foundation</value>
+		</Data>
+	  </ExtendedData>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -76.869618,42.86594199999998,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>http://img.photobucket.com/albums/v621/simpsons403/church.png</href></Icon>
+      <scale>0.03</scale>
+    </IconStyle>
+   </Style>
+</Document>
+</kml>
