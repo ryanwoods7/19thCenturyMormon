@@ -53,6 +53,7 @@ body {
 	margin:0;
 	font-family: 'exoregular';
 	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sg.jpg) repeat
+	min-height:2000px;
 }
 a {
 	outline:none;
@@ -192,7 +193,6 @@ a img {
 	margin:0 auto;
 	padding:35px 0 0;
 	width:960px;
-	min-height:2000px;
 }
 .body .home {
 	float:left;
