@@ -53,7 +53,6 @@ body {
 	margin:0;
 	font-family: 'exoregular';
 	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sg.jpg) repeat
-	min-height:725px;
 }
 a {
 	outline:none;
@@ -198,6 +197,7 @@ a img {
 	float:left;
 	margin:0 20px 17px 0;
 	width:630px;
+	min-height:725px;
 }
 .body .home h4 {
 	background:none #102223;
@@ -419,6 +419,7 @@ a img {
 	float:left;
 	margin:-467px 0 17px;
 	width:630px;
+	min-height:725px;
 }
 .body .about div {
 	background:none #1d3536;
@@ -533,6 +534,7 @@ a img {
 	float:left;
 	margin:-467px 0 17px;
 	width:630px;
+	min-height:725px;
 }
 .body .documentation div {
 	background:none #1d3536;
@@ -647,6 +649,7 @@ a img {
 	float:left;
 	margin:-467px 0 17px;
 	width:630px;
+	min-height:725px;
 }
 .body .contact form {
 	background:none #749596;
