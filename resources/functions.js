@@ -239,7 +239,7 @@ function popUp()
 		
 function destroyPopup()
 {
-	overlay.setPosition(undefined);
-	closer.blur();
+	overlay.setPosition([0,1000000000000000000]);
+	//closer.blur();
 	return false;
 }
