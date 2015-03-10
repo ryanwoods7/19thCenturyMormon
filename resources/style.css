@@ -91,7 +91,7 @@ a img {
 .header div ul li.selected {
 	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) no-repeat 0 -135px;
 	height:100px;
-	width:195px;
+	width:190px;
 }
 .header div ul li.selected a {
 	color: #fff;
@@ -302,146 +302,6 @@ a img {
 	background:none #249596;
 	overflow:hidden;
 	padding:13px 60px 0 69px;
-}
-.body .sidebar {
-	float:right;
-	margin:0 0 42px;
-	width:310px;
-}
-.body .sidebar h4 {
-	background:none #1d3536;
-	color:#FEFAFA;
-	font-family:exobolditalic;
-	font-size:18px;
-	font-weight:400;
-	height:36px;
-	letter-spacing:.05em;
-	line-height:35px;
-	margin:0;
-	text-indent:25px;
-}
-.body .sidebar ul {
-	list-style:none;
-	margin:0;
-	padding:36px 0 35px;
-}
-.body .sidebar ul li:first-child {
-	margin-top:0;
-}
-.body .sidebar ul li {
-	margin-top:23px;
-	overflow:hidden;
-}
-.body .sidebar ul li a {
-	display:inline-block;
-	float:left;
-	margin:0 17px 0 0;
-	vertical-align:top;
-}
-.body .sidebar ul li div {
-	display:inline-block;
-	float:left;
-	width:180px;
-}
-.body .sidebar ul li div p {
-	color:#97c2c5;
-	font-family:exoregular;
-	font-size:10px;
-	letter-spacing:.05em;
-	line-height:18px;
-	margin:-1px 0 12px;
-}
-.body .sidebar ul li div p a {
-	color:#97c2c5;
-	float:none;
-	text-decoration:underline;
-}
-.body .sidebar ul li div a {
-	color:#6DF2FC;
-	font-family:exoregular;
-	font-size:10px;
-	letter-spacing:.05em;
-	line-height:18px;
-	margin:0;
-}
-.body .sidebar ul li div a:hover {
-	color:#bdbdbd;
-}
-.body .sidebar form {
-	margin:29px 0 0;
-	overflow:hidden;
-}
-.body .sidebar form input:first-child {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) repeat-x #060606;
-	border:0;
-	cursor:auto;
-	float:left;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
-	font-style:italic;
-	height:100px;
-	line-height:20px;
-	margin:0 18px 0 0;
-	padding:10px 5px 6px;
-	width:185px;
-	cursor:text;
-}
-.body .sidebar form input:first-child:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) repeat-x #060606;
-}
-.body .sidebar form input {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) repeat-x #060606;
-	border:0;
-	cursor:pointer;
-	height:100px;
-	margin:0;
-	padding:0;
-	width:185px;
-}
-.body .sidebar form input:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) repeat-x #060606;
-}
-.body .section {
-	border-top:6px solid #102223;
-	clear:both;
-	overflow:hidden;
-	padding:36px 0 0;
-}
-.body .section div:first-child {
-	float:left;
-	margin:0 20px 0 0;
-	width:630px;
-}
-.body .section div h4 {
-	background:none repeat scroll 0 0 #1D3536;
-	color:#FEFAFA;
-	font-family:exobolditalic;
-	font-size:18px;
-	font-weight:400;
-	height:36px;
-	letter-spacing:.05em;
-	line-height:35px;
-	margin:0;
-	text-indent:25px;
-}
-.body .section div:first-child ul {
-	background:none #102223;
-	list-style:none;
-	margin:0;
-	overflow:hidden;
-	padding:18px 10px;
-}
-.body .section div:first-child ul li {
-	float:left;
-	margin:0 0 0 35px;
-}
-.body .section div:first-child ul li a img {
-	border:2px solid #2f5455;
-}
-.body .section div.connect {
-	background:none #102223;
-	float:right;
-	width:310px;
 }
 .body .about {
 	float:left;
@@ -764,99 +624,6 @@ a img {
 	font-size:12px;
 	margin:0;
 }
-.body .sidebar div.connect {
-	background:none #102223;
-	margin:78px 0 0;
-	overflow:hidden;
-}
-.body .gallery {
-	background:none #749596;
-	float:left;
-	margin:-467px 0 100px;
-	padding:0 0 32px;
-	width:630px;
-}
-.body .gallery div ul {
-	background:none repeat scroll 0 0 transparent;
-	float:right;
-	list-style:none outside none;
-	margin:0;
-	overflow:hidden;
-	padding:0 5px 0 0;
-}
-.body .gallery div ul li {
-	background:none repeat scroll 0 0 transparent;
-	float:left;
-	margin:0;
-	padding:0;
-	width:auto;
-}
-.body .gallery div ul li a {
-	color:#74C9D1;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
-	line-height:42px;
-	margin:0;
-	padding:0 6px;
-	text-decoration:none;
-}
-.body .gallery img {
-	display:block;
-	margin:18px 0 23px 10px;
-}
-.body .gallery ul {
-	list-style:none;
-	margin:0;
-	overflow:hidden;
-	padding:0 10px;
-}
-.body .gallery ul li {
-	float:left;
-	margin:0 0 0 30px;
-	width:auto;
-}
-.body .gallery ul li a img {
-	border:2px solid #2f5455;
-	margin:0;
-}
-.body .gallery ul.section {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/border.png) repeat-x left top;
-	border:0;
-	clear:none;
-	margin:0 10px;
-	padding:25px 0 30px;
-}
-.body .gallery ul.section li:first-child {
-	margin:0 10px 0 0;
-}
-.body .gallery ul.section li {
-	margin-left:30px;
-}
-.body .gallery ul li.second {
-	margin:0 10px 0 30px;
-}
-.body .gallery h2 {
-	color:#fff;
-	font-family:exobolditalic;
-	font-size:30px;
-	font-weight:400;
-	line-height:24px;
-	margin:38px 0 18px;
-	text-indent:10px;
-}
-.body .gallery p {
-	color:#091b1c;
-	font-size:12px;
-	line-height:24px;
-	margin:0 10px 24px;
-}
-.body .gallery p a {
-	color:#091b1c;
-	text-decoration:underline;
-}
-.body .section div:first-child ul li:first-child, .body .gallery ul li:first-child {
-	margin:0;
-}
 .body .home ul li div h3 {
 	margin:0;
 	color:#f9fefe;
@@ -868,66 +635,12 @@ a img {
 	line-height:14px;
 	margin: 0 0 12px;
 }
-.body .sidebar ul li div h3 {
-	color:#f9fefe;
-	float:none;
-	font-family:exolightitalic;
-	font-size:14px;
-	font-weight:400;
-	letter-spacing:.05em;
-	line-height:14px;
-	margin:0 0 12px;
-}
-.body .home ul li div p a:hover, .body .sidebar ul li div p a:hover, .body .about p a:hover, .body .documentation ul li div p a:hover, .body .contact form p a, .body .gallery p a:hover {
+.body .home ul li div p a:hover, .body .about p a:hover, .body .documentation ul li div p a:hover, .body .contact form p a{
 	color:#a0eff3;
 }
-.body .sidebar ul li a img:hover, .body .section div:first-child ul li a img:hover, .body .documentation ul li a img:hover, .body .gallery ul li a img:hover {
+.body .documentation ul li a img:hover {
 	filter:alpha(opacity=80);/* Needed for IE8 and old versions */
 	opacity:0.8;
-}
-.body .section div.connect a#twitter, .body .sidebar div.connect a#twitter {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -59px;
-	float:left;
-	height:28px;
-	margin:25px 0 31px 21px;
-	text-indent:-99999px;
-	width:31px;
-}
-.body .section div.connect a#twitter:hover, .body .sidebar div.connect a#twitter:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -89px;
-}
-.body .section div.connect a#fb, .body .sidebar div.connect a#fb {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -177px;
-	float:left;
-	height:27px;
-	margin:25px 0 0 48px;
-	text-indent:-99999px;
-	width:28px;
-}
-.body .section div.connect a#fb:hover, .body .sidebar div.connect a#fb:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -206px;
-}
-.body .section div.connect a#googleplus, .body .sidebar div.connect a#googleplus {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -119px;
-	float:left;
-	height:27px;
-	width:26px;
-	margin:25px 0 0 51px;
-	text-indent:-99999px;
-}
-.body .section div.connect a#googleplus:hover, .body .sidebar div.connect a#googleplus:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -148px;
-}
-.body .section div.connect a#vimeo, .body .sidebar div.connect a#vimeo {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 0;
-	float:left;
-	height:28px;
-	margin:25px 0 0 52px;
-	text-indent:-99999px;
-	width:31px;
-}
-.body .section div.connect a#vimeo:hover, .body .sidebar div.connect a#vimeo:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/icons.png) no-repeat 0 -30px;
 }
 .body .documentation div ul li a:hover, .body .documentation div ul li a.first, .body .documentation div ul li a.last, .body .documentation ul li div h3 a:hover, .body .gallery div ul li a.first, .body .gallery div ul li a.last, .body .gallery div ul li a:hover {
 	text-decoration:underline;
