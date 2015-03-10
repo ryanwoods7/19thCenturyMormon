@@ -227,6 +227,7 @@ function zoomTo(mylayer)
 	// Reset the zoom for the 'Default View' option
 	if (mylayer=="reset")
 	{
+		destroyPopup();
 		map.getView().setZoom(4);
 		map.getView().setCenter([-10000000, 5500000]);
 	}
