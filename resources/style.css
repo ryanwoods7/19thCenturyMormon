@@ -91,7 +91,7 @@ a img {
 .header div ul li.selected {
 	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) no-repeat 0 -135px;
 	height:100px;
-	width:203.5px;
+	width:185px;
 }
 .header div ul li.selected a {
 	color: #fff;
@@ -113,6 +113,34 @@ a img {
 	line-height: 90px;
 }
 .header div ul li.selected span {
+	color:#084547;
+	text-shadow:0 1px 0 #bef3f8;
+}
+.header div ul li.select {
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/interface2.png) no-repeat 0 -135px;
+	height:100px;
+	width:203.5px;
+}
+.header div ul li.select a {
+	color: #fff;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	text-shadow: 0 1px 0 #d7f4f7;
+}
+.header div ul li.select a:hover {
+	color: #fff;
+	display: inline-block;
+	float: left;
+	font-family: exolightitalic;
+	font-size: 18px;
+	letter-spacing: 0.05em;
+	text-shadow: 0 1px 0 #3b3939;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	line-height: 90px;
+}
+.header div ul li.select span {
 	color:#084547;
 	text-shadow:0 1px 0 #bef3f8;
 }
