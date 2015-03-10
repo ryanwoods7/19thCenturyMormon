@@ -214,7 +214,7 @@ function zoomTo(mylayer)
 			if (layers[i].name=='colonia'||layers[i].name=='melchizedek')
 				{map.getView().setZoom(11);}
 			coord = map.getView().getCenter();
-			feature = layers[i].etSourgce().getFeatures();
+			feature = layers[i].etSourgce().getFeatures()[0];
 			popUp();
 		}
 	}
@@ -225,9 +225,6 @@ function zoomTo(mylayer)
 		map.getView().setZoom(4);
 		map.getView().setCenter([-10000000, 5500000]);
 	}
-	
-	// Destroy pop-up bubbles
-	destroyPopup();
 }
 
 function popUp()
