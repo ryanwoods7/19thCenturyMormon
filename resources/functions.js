@@ -214,7 +214,7 @@ function zoomTo(mylayer)
 			if (layers[i].name=='colonia'||layers[i].name=='melchizedek')
 				{map.getView().setZoom(11);}
 			coord = map.getView().getCenter();
-			feature = layers[i].etSourgce().getFeatures()[0];
+			feature = layers[i].getSource().getFeatures()[0];
 			popUp();
 		}
 	}
