@@ -53,6 +53,11 @@ function mapSetup()
 			coord = map.getCoordinateFromPixel(evt.pixel);
 			popUp();}
 	});
+		
+	// Destroys pop-up with the X in corner
+	closer.onclick = function() {
+		destroyPopup()
+	};
 }
 
 function buildLayers()
