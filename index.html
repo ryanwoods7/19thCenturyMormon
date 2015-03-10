@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css" type="text/css">
 	<link rel="stylesheet" href="resources/ol.css" type="text/css">
 	<link rel="stylesheet" href="resources/style.css" type="text/css">
+	<script src="resources/ol.js" type="text/javascript"></script>
+    	<script src="resources/functions.js" type="text/javascript"></script>
 	<style type="text/css">
 		.ol-popup {
 		position: absolute;
@@ -58,7 +60,7 @@
 	</style>
 	<title>19th Century Mormonism</title>
 </head>
-<body>
+<body onload="mapSetup()";>
 	<div class="page page-home">
 		<div class="header">
 			<div>
@@ -89,29 +91,27 @@
 	
 	<div class="body">
 	<form>
-		<select onchange="destroyBubble();">
-			<option value='0' onclick="zoomReset()">Default View</option>
-			<option value='1' onclick="zoomVision()">The First Vision</option>
-			<option value='2' onclick="zoomBook()">Publication of the Book of Mormon</option>
-			<option value='3' onclick="zoomAaronic()">Aaronic Priesthood Restoration</option> 
-			<option value='4' onclick="zoomMelchizedek()">Melchizedek Priesthood Restoration</option> 
-			<option value='5' onclick="zoomWhitmer()">Organization of the Church</option>
-			<option value='6' onclick="zoomKirtland()">Settling of Kirtland</option>
-			<option value='7' onclick="zoomFarWest()">Settling of Far West</option>
-			<option value='8' onclick="zoomAdam()">Adam-ondi-Ahman Prophecy</option>
-			<option value='9' onclick="zoomLiberty()">Liberty Jail Imprisonment</option>
-			<option value='10' onclick="zoomNauvoo()">Settling of Nauvoo</option>
-			<option value='11' onclick="zoomCarthage()">Martyrdom of Joseph Smith</option>
-			<option value='12' onclick="zoomQuarters()">Settling of Winter Quarters</option>
-			<option value='13' onclick="zoomTrail()">The Mormon Trail</option>
-			<option value='14' onclick="zoomSLC()">Settling of Salt Lake City</option>
-			<option value='15' onclick="zoomGeorge()">Saint George Temple Dedication</option>
-			<option value='16' onclick="zoomColonia()">Settling of Colonia Juárez</option>			
+		<select onChange="zoomTo(this.value)">
+			<option value='reset'>Default View</option>
+			<option value='vision'>The First Vision</option>
+			<option value='book'>Publication of the Book of Mormon</option>
+			<option value='aaronic'>Aaronic Priesthood Restoration</option> 
+			<option value='melchizedek'>Melchizedek Priesthood Restoration</option> 
+			<option value='whitmer'>Organization of the Church</option>
+			<option value='kirtland'>Settling of Kirtland</option>
+			<option value='farwest'>Settling of Far West</option>
+			<option value='adam'>Adam-ondi-Ahman Prophecy</option>
+			<option value='liberty'>Liberty Jail Imprisonment</option>
+			<option value='nauvoo'>Settling of Nauvoo</option>
+			<option value='carthage'>Martyrdom of Joseph Smith</option>
+			<option value='quarters'>Settling of Winter Quarters</option>
+			<option value='trail'>The Mormon Trail</option>
+			<option value='slc'>Settling of Salt Lake City</option>
+			<option value='george'>Saint George Temple Dedication</option>
+			<option value='colonia'>Settling of Colonia Juárez</option>			
 		</select>
     </form>
-	
-    <script src="resources/ol.js" type="text/javascript"></script>
-    <script src="resources/functions.js" type="text/javascript"></script>
+
 	</div>
 		<div class="footer">
 			<div>
