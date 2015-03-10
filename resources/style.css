@@ -354,6 +354,7 @@ a img {
 }
 .body .about ul li:first-child {
 	background:none;
+	width:305px;
 }
 .body .about ul li {
 	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/border.png) repeat-x left top;
@@ -474,6 +475,7 @@ a img {
 	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/border.png) repeat-x left top;
 	overflow:hidden;
 	padding:25px 0 0;
+	width:305px;
 }
 .body .documentation ul li a {
 	display:inline-block;
