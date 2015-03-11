@@ -233,14 +233,6 @@ function zoomTo(mylayer)
 	}
 }
 
-/*function resetView()
-{
-destroyPopup();
-map.getView().setZoom(4);
-map.getView().setCenter([-10000000, 5500000]);
-zoomTo("reset");
-}*/
-
 function popUp()
 {
 	overlay.setPosition(coord);
