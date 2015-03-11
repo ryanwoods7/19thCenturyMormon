@@ -216,7 +216,7 @@ function zoomTo(mylayer)
 			map.getView().setZoom(12);
 			if (layers[i].name=='trail')
 				{map.getView().fitExtent(layers[i].getSource().getExtent(), map.getSize());}
-			if (layers[i].name=='colonia'||layers[i].name=='melchizedek')
+			if (layers[i].name=='colonia'||layers[i].name=='melchizedek'||layers[i].name=='slc')
 				{map.getView().setZoom(11);}
 			coord = map.getView().getCenter();
 			feature = layers[i].getSource().getFeatures()[0];
