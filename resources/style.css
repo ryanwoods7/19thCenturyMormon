@@ -595,26 +595,8 @@ a img {
 	resize:none;
 	width:482px;
 }
-.body .contact form label.subscribe {
-	color:#060606;
-	float:left;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
-	font-style:normal;
-	line-height:22px;
-	width:265px;
-}
-.body .contact form label.agree {
-	color:#060606;
-	float:left;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
-	font-style:normal;
-	line-height:22px;
-	width:225px;
-}
-.body .contact form input#submit {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub.jpg) no-repeat;
+body .contact form input#submit {
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub.png) no-repeat;
 	border:0;
 	cursor:pointer;
 	float:right;
@@ -624,7 +606,20 @@ a img {
 	width:185px;
 }
 .body .contact form input#submit:hover {
-	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub2.jpg) no-repeat;
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub2.png) no-repeat;
+}
+body .contact form input#clear {
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub3.png) no-repeat;
+	border:0;
+	cursor:pointer;
+	float:right;
+	height:100px;
+	margin:43px 20px 63px 0;
+	padding:0;
+	width:185px;
+}
+.body .contact form input#clear:hover {
+	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub4.png) no-repeat;
 }
 .body .contact p {
 	color:#688889;
