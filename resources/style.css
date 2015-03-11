@@ -71,6 +71,9 @@ a img {
 .header .documentation {
 	min-height:700px;
 }
+.header .contact {
+	min-height:636px;
+}
 .header div {
 	margin: 0 auto;
 	width: 1000px;
