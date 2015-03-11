@@ -65,6 +65,9 @@ a img {
 .header {
 	min-height:200px;
 }
+.header .about {
+	min-height:600px;
+}
 .header .documentation {
 	min-height:600px;
 }
