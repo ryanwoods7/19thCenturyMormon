@@ -66,10 +66,10 @@ a img {
 	min-height:200px;
 }
 .header .about {
-	min-height:736px;
+	min-height:700px;
 }
 .header .documentation {
-	min-height:736px;
+	min-height:700px;
 }
 .header .contact {
 	min-height:636px;
@@ -231,7 +231,7 @@ a img {
 	float:left;
 	margin:0 20px 17px 0;
 	width:630px;
-	min-height:250px;
+	min-height:225px;
 }
 .body .home h4 {
 	background:none #102223;
