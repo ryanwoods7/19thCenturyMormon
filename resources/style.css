@@ -71,9 +71,6 @@ a img {
 .header .documentation {
 	min-height:700px;
 }
-.header .contact {
-	min-height:636px;
-}
 .header div {
 	margin: 0 auto;
 	width: 1000px;
@@ -231,7 +228,7 @@ a img {
 	float:left;
 	margin:0 20px 17px 0;
 	width:630px;
-	min-height:230px;
+	min-height:240px;
 }
 .body .home h4 {
 	background:none #102223;
