@@ -599,7 +599,7 @@ body .contact form input#submit {
 	background:url(http://www.et.byu.edu/~woody27/19thCenturyMormon/images/sub.png) no-repeat;
 	border:0;
 	cursor:pointer;
-	float:right;
+	float:left;
 	height:100px;
 	margin:43px 20px 63px 0;
 	padding:0;
